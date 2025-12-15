@@ -143,6 +143,46 @@ Home/Mafateeh/
 - Safari (latest)
 - Edge (latest)
 
+## Deployment to GitHub Pages
+
+This project is configured for deployment to GitHub Pages.
+
+### First Time Setup:
+
+1. **Update Homepage** (if needed):
+   - The `package.json` already has the homepage set to: `https://MafateehITBU.github.io/mafateeh-portf`
+   - If your GitHub username or repo name is different, update it in `package.json`
+
+2. **Deploy to GitHub Pages**:
+   ```bash
+   npm run deploy
+   ```
+   This will:
+   - Build your React app
+   - Deploy it to the `gh-pages` branch
+   - Make it available at `https://MafateehITBU.github.io/mafateeh-portf`
+
+3. **Enable GitHub Pages** (if not already enabled):
+   - Go to your GitHub repository: `https://github.com/MafateehITBU/mafateeh-portf`
+   - Click on **Settings** → **Pages**
+   - Under **Source**, select **Deploy from a branch**
+   - Select branch: **gh-pages** and folder: **/ (root)**
+   - Click **Save**
+
+4. **Access Your Site**:
+   - Your site will be live at: `https://MafateehITBU.github.io/mafateeh-portf`
+   - It may take a few minutes for the first deployment to go live
+
+### Updating Your Site:
+
+After making changes to your code:
+```bash
+git add .
+git commit -m "Your commit message"
+git push origin main
+npm run deploy
+```
+
 ## License
 
 © 2024 Mafateeh IT & Media Solutions. All rights reserved.
