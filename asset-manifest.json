@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mafateeh-portf/static/css/main.4fc33d59.css",
+    "main.js": "/mafateeh-portf/static/js/main.0430b7a6.js",
+    "index.html": "/mafateeh-portf/index.html",
+    "main.4fc33d59.css.map": "/mafateeh-portf/static/css/main.4fc33d59.css.map",
+    "main.0430b7a6.js.map": "/mafateeh-portf/static/js/main.0430b7a6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fc33d59.css",
+    "static/js/main.0430b7a6.js"
+  ]
+}
