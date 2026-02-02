@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Portfolio for Mafateeh IT & Media Solutions Company",
   "private": true,
-  "homepage": "https://MafateehITBU.github.io/mafateeh-portf",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
