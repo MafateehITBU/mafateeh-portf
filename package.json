@@ -2,6 +2,7 @@
   "name": "mafateeh-portfolio",
   "version": "1.0.0",
   "description": "Portfolio for Mafateeh IT & Media Solutions Company",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
